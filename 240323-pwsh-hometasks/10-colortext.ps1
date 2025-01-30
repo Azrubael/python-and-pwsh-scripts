@@ -4,6 +4,6 @@
 Write-Host "Blue text from file script" -ForegroundColor Blue
 
 $colors = @("green", "blue", "red", "yellow")
-for ($i=0; i -lt $colors.:Length; $i++) {
+for ($i=0; $i -lt $colors.Length; $i++) {
     Write-Host $colors[$i] -ForegroundColor $colors[$i]
 }
